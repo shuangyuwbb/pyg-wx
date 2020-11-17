@@ -1,0 +1,95 @@
+/* pages/goods_detail/goods_detail.wxss */
+page{
+    padding-bottom: 90rpx;
+}
+.detail_swiper{
+    swiper{
+        height: 70vw;
+        text-align: center;
+        image{
+            width: 60%;
+        }
+    }
+}
+.goods_price{
+    padding: 15rpx;
+    font-size: 32rpx;
+    font-weight:600;
+    color: var(--themeColor);
+}
+.goods_name_row{
+    display: flex;
+    border-top: 5px solid rgb(243, 237, 237);
+    border-bottom: 5px solid rgb(245, 242, 242);
+    .goods_name{
+        flex: 5;
+        color: #000;
+        font-size: 30rpx;
+        padding: 0 10px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .goods_collect{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-left: 1px solid #000;
+        .iconfont{}
+        .icon-shoucang{}
+        .collect{}
+    }
+}
+.goods_info{
+    .goods_info_title{
+       color: var(--themeColor);
+       font-size: 32rpx;
+       padding: 20rpx;
+       font-weight: 600;
+       border-bottom: 5px solid rgb(228, 217, 217);
+    }
+    .goods_info_content{}
+}
+.btm_tool{
+    border-top: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;height: 90rpx;
+    background-color: #fff;
+    display: flex;
+    .tool_item{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 24rpx;
+        position: relative;
+        button{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .btn_cart{
+        color: #fff;
+        font-size: 32rpx;
+        font-weight: 600;
+        background-color: #ffa500;
+        flex: 2;
+    }
+    .btn_buy{
+        flex: 2;
+        color: #fff;
+        font-size: 32rpx;
+        font-weight: 600;
+        background-color: #eb4450;
+    }
+}

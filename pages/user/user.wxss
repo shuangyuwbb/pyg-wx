@@ -1,0 +1,116 @@
+page {
+  background-color: #edece8;
+}
+.user_info_wrap {
+  height: 40vh;
+  background-color: var(--themeColor);
+  overflow: hidden;
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  font-size: 40rpx;
+  margin-top: 40rpx;
+  color: #fff;
+}
+.user_info_wrap .user_login {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}
+.user_info_wrap .user_login navigator {
+  color: #86d865;
+  padding: 25rpx;
+  border-radius: 10%;
+  font-size: 32rpx;
+  border: 3rpx solid #fff;
+}
+.user_content {
+  position: relative;
+  padding-bottom: 90rpx;
+}
+.user_content .user_mian {
+  color: #666;
+  font-size: 30rpx;
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .user_mian .hostory_wrap {
+  background-color: #fff;
+  display: flex;
+}
+.user_content .user_mian .hostory_wrap navigator {
+  padding: 20rpx;
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_mian .hostory_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_mian .hostory_wrap navigator .his_name {
+  font-size: 25rpx;
+}
+.user_content .user_mian .order_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_content .user_mian .order_wrap .order_title {
+  font-style: 32rpx;
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+}
+.user_content .user_mian .order_wrap .order_content {
+  display: flex;
+}
+.user_content .user_mian .order_wrap .order_content navigator {
+  flex: 1;
+  padding: 15rpx 0;
+  text-align: center;
+}
+.user_content .user_mian .order_wrap .order_content navigator .iconfont {
+  color: var(--themeColor);
+}
+.user_content .user_mian .order_wrap .order_content navigator .order_name {
+  font-size: 24rpx;
+}
+.user_content .user_mian .address_wrap {
+  margin: 30rpx 0;
+  padding: 20rpx;
+  background-color: #fff;
+}
+.user_content .user_mian .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  background-color: #fff;
+  border-bottom: 3px solid #ccc;
+}
+.user_content .user_mian .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.user_content .user_mian .recommend_wrap {
+  margin-top: 30rpx;
+  padding: 20rpx;
+  background-color: #fff;
+}
