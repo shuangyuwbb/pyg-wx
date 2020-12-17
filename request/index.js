@@ -6,8 +6,8 @@ export const request = (params) => {
         title: '加载中',
         mask: true,
     });
-    // const baseUrl = "https://api.zbztb.cn/api/public/v1"
-    const baseUrl = "http://localhost:3000/pyg"
+    const baseUrl = "https://api.zbztb.cn/api/public/v1"
+    // const baseUrl = "http://localhost:3000/pyg"
     return new Promise((resolve, reject) => {
         wx.request({
             ...params,
